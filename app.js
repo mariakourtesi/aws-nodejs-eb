@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'BackSpace Academy & Elastic Beanstalk'
+    title: 'My first Elastic Beanstalk application'
     })
     res.status(200).end();
 })
